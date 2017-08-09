@@ -1,0 +1,21 @@
+h1 {
+  color: #215BB2;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-family: monospace;
+}
+h2 {
+  text-align: center;
+}
+img {
+  float:left;
+}
+#pokeIpsum {
+  clear:both;
+  background-color: #FF1015;
+  border: 5px outset blue;
+}
+body {
+  background-color: #FFD37C;
+}
