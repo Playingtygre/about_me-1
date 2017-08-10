@@ -92,18 +92,19 @@ for(var i = 0; i < 4; i++) {
 }
 numGame();
 
-/*
-var hob = ['blacksmithing', 'gaming', 'photography'];
-for(var j = 0; j < 6; j++) {
-  var possibilities = prompt('What is one of my hobbies?');
-  console.log(possibilities);
-  if(hob.includes(possibilities)) {
-    alert('That\'s one of my hobbies. My current hobbies are blacksmithing, gaming, and photography.');
-    crAns++;
-    break;
-  } else {
-    alert('That\'s not a hobby of mine. Feel free to guess again.');
+function hobb1(){
+  var hob = ['blacksmithing', 'gaming', 'photography'];
+  for(var j = 0; j < 6; j++) {
+    var possibilities = prompt('What is one of my hobbies?');
+    console.log(possibilities);
+    if(hob.includes(possibilities)) {
+      alert('That\'s one of my hobbies. My current hobbies are blacksmithing, gaming, and photography.');
+      crAns++;
+      break;
+    } else {
+      alert('That\'s not a hobby of mine. Feel free to guess again.');
+    }
   }
 }
+hobb1();
 alert('Thank you for participating ' + name + '.' + ' Score:' + crAns + '\/7');
-*/
