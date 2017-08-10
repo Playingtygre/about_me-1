@@ -1,17 +1,26 @@
 'use strict';
-var name = prompt('What\'s your name?');
-console.log(name);
-alert('Respond to answers unless specified with y\/yes or n\/no.');
-var crAns = 0;
-var quiz = prompt('Would you like to take a quiz about me?');
-quiz = quiz.toUpperCase();
-console.log(quiz);
-if((quiz === 'YES') || (quiz === 'Y')) {
-  alert('I\'m glad you are interested.');
-  crAns++;
-} else{
-  alert('TO FUCKIN BAD\!');
+
+function name1 (){
+  var name = prompt('What\'s your name?');
+  console.log(name);
+  alert('Respond to answers unless specified with y\/yes or n\/no.');
 }
+name1();
+
+var crAns = 0;
+function quiz() {
+  var quiz = prompt('Would you like to take a quiz about me?');
+  quiz = quiz.toUpperCase();
+  console.log(quiz);
+  if((quiz === 'YES') || (quiz === 'Y')) {
+    alert('I\'m glad you are interested.');
+    crAns++;
+  } else{
+    alert('TO FUCKIN BAD\!');
+  }
+}
+quiz();
+/*
 var victory = prompt('Was I the 2013 IT Skills U.S.A state champion for Arizona?');
 victory = victory.toUpperCase();
 console.log(victory);
@@ -75,3 +84,4 @@ for(var j = 0; j < 6; j++) {
   }
 }
 alert('Thank you for participating ' + name + '.' + ' Score:' + crAns + '\/7');
+*/
