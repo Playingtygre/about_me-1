@@ -20,7 +20,6 @@ function quiz() {
   }
 }
 quiz();
-
 /*
 var victory = prompt('Was I the 2013 IT Skills U.S.A state champion for Arizona?');
 victory = victory.toUpperCase();
