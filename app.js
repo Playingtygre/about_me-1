@@ -20,17 +20,21 @@ function quiz() {
   }
 }
 quiz();
-/*
-var victory = prompt('Was I the 2013 IT Skills U.S.A state champion for Arizona?');
-victory = victory.toUpperCase();
-console.log(victory);
-if((victory === 'YES') || (victory === 'Y')) {
-  alert('Indeed I was.');
-  crAns++;
-} else{
-  alert('Sadly you are wrong.');
+
+function victory1(){
+  var victory = prompt('Was I the 2013 IT Skills U.S.A state champion for Arizona?');
+  victory = victory.toUpperCase();
+  console.log(victory);
+  if((victory === 'YES') || (victory === 'Y')) {
+    alert('Indeed I was.');
+    crAns++;
+  } else{
+    alert('Sadly you are wrong.');
+  }
 }
-var blind = prompt('Am I color blind?');
+victory1();
+
+/*var blind = prompt('Am I color blind?');
 blind = blind.toUpperCase();
 console.log(blind);
 if((blind === 'YES') || (blind === 'Y')) {
