@@ -73,7 +73,8 @@ function favGame1(){
   }
 }
 favGame1();
-/*
+
+function numGame(){
 for(var i = 0; i < 4; i++) {
   var numGuess = prompt('Guess a number between 1-20.');
   console.log(numGuess);
@@ -88,6 +89,10 @@ for(var i = 0; i < 4; i++) {
   }
   alert('Try again');
 }
+}
+numGame();
+
+/*
 var hob = ['blacksmithing', 'gaming', 'photography'];
 for(var j = 0; j < 6; j++) {
   var possibilities = prompt('What is one of my hobbies?');
