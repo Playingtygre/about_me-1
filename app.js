@@ -34,15 +34,19 @@ function victory1(){
 }
 victory1();
 
-/*var blind = prompt('Am I color blind?');
-blind = blind.toUpperCase();
-console.log(blind);
-if((blind === 'YES') || (blind === 'Y')) {
-  alert('INDEED, red green at that.');
-  crAns++;
-} else{
-  alert('Sadly I\'m red green color blind.');
+function blind(){
+  var blind = prompt('Am I color blind?');
+  blind = blind.toUpperCase();
+  console.log(blind);
+  if((blind === 'YES') || (blind === 'Y')) {
+    alert('INDEED, red green at that.');
+    crAns++;
+  } else{
+    alert('Sadly I\'m red green color blind.');
+  }
 }
+blind();
+/*
 var birth = prompt('Was I born in Arizona?');
 birth = birth.toUpperCase();
 console.log(birth);
