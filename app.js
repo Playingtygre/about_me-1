@@ -60,16 +60,20 @@ function birth1(){
 }
 
 birth1();
-/*
-var favGame = prompt('Jak \& Daxter is one of my all time favorite games?');
-favGame = favGame.toUpperCase();
-console.log(favGame);
-if((favGame === 'YES') || (favGame === 'Y')) {
-  alert('Indeed it is.');
-  crAns++;
-} else{
-  alert('It is, matter of fact it was better than Uncharted.');
+
+function favGame1(){
+  var favGame = prompt('Jak \& Daxter is one of my all time favorite games?');
+  favGame = favGame.toUpperCase();
+  console.log(favGame);
+  if((favGame === 'YES') || (favGame === 'Y')) {
+    alert('Indeed it is.');
+    crAns++;
+  } else{
+    alert('It is, matter of fact it was better than Uncharted.');
+  }
 }
+favGame1();
+/*
 for(var i = 0; i < 4; i++) {
   var numGuess = prompt('Guess a number between 1-20.');
   console.log(numGuess);
