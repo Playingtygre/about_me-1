@@ -46,16 +46,21 @@ function blind(){
   }
 }
 blind();
-/*
-var birth = prompt('Was I born in Arizona?');
-birth = birth.toUpperCase();
-console.log(birth);
-if((birth === 'YES') || (birth === 'Y')) {
-  alert('No, I was actualy born in Italy.');
-} else{
-  alert('Correct, I was actualy born in Italy.');
-  crAns++;
+
+function birth1(){
+  var birth = prompt('Was I born in Arizona?');
+  birth = birth.toUpperCase();
+  console.log(birth);
+  if((birth === 'YES') || (birth === 'Y')) {
+    alert('No, I was actualy born in Italy.');
+  } else{
+    alert('Correct, I was actualy born in Italy.');
+    crAns++;
+  }
 }
+
+birth1();
+/*
 var favGame = prompt('Jak \& Daxter is one of my all time favorite games?');
 favGame = favGame.toUpperCase();
 console.log(favGame);
